@@ -13,3 +13,7 @@ deploy:
 undeploy:
 	kubectl delete secret my-secret -n ns-test
 	kubectl delete ns ns-test
+
+build_script:
+	cp ./scripts/kubectl-secretvalue.sh ./${BINARY}
+	chmod +x $(BINARY)
