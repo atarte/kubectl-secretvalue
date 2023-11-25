@@ -1,4 +1,4 @@
-module github/jtarte/kubectl-cli-secretvalue
+module github/atarte/kubectl-secretvalue
 
 go 1.21.3
 
