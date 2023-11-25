@@ -1,4 +1,4 @@
-module github/atarte/kubectl-secretvalue
+module github.com/atarte/kubectl-secretvalue
 
 go 1.21.3
 
