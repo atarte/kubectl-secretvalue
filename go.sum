@@ -1,3 +1,5 @@
+github.com/atarte/kubectl-secretvalue v0.0.0-20231125082816-d8eef3ff18fe h1:Mb7g8QP/Z+wZB1jy9oIchCs1Xkw6xUoshbeuKKpzG4w=
+github.com/atarte/kubectl-secretvalue v0.0.0-20231125082816-d8eef3ff18fe/go.mod h1:+BrFES8L+aSYDNnxJk2hnWHbs2CygB5yqG7cP+95yI8=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=

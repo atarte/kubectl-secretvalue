@@ -46,7 +46,11 @@ func usage() {
 // err the err that could be raised during processing
 func getValue(a Args) (string, error) {
 	// setup the kubernetes config from the default ./kube/config file
-	config, err := clientcmd.BuildConfigFromFlags("", filepath.Join(os.Getenv("HOME"), ".kube", "config"))
+	homeDir, err := os.UserHomeDir()
+	if err != nil {
+		return "", err
+	}
+	config, err := clientcmd.BuildConfigFromFlags("", filepath.Join(homeDir, ".kube", "config"))
 	if err != nil {
 		return "", err
 	}

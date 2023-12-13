@@ -9,6 +9,7 @@ require (
 )
 
 require (
+	github.com/atarte/kubectl-secretvalue v0.0.0-20231125082816-d8eef3ff18fe // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.9.0 // indirect
 	github.com/go-logr/logr v1.2.4 // indirect
